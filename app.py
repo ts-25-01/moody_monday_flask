@@ -11,6 +11,7 @@ def homepage():
 @app.route("/about")
 def about():
     return "This is about the Moody Monday Coffe Need!"
+# hier starten wir die main funktion
 
 if __name__ == "__main__":
     app.run(debug=True)
